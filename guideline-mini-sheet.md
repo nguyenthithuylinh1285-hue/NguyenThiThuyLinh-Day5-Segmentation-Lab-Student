@@ -8,8 +8,6 @@
 | **Instance** | Pixel này thuộc **vật thể cụ thể (instance)** nào? | `medium_instance`, `cp1_holes`, `cp2_slice`, `cp5_occlusion` | **COCO 1.0** (ra file `instances_default.json`) |
 | **Panoptic** | Vừa chia vùng (Stuff) vừa đếm từng vật thể (Things) | `hard_panoptic` | **COCO 1.0** (ra file `instances_default.json`) |
 
-> ⚠️ **LƯU Ý TÊN FILE:** Tên file ZIP phải **chính xác 100% mã task** (ví dụ: `medium_instance.zip`, tuyệt đối không có dấu cách như `medium_instance .zip` hoặc tên lạ `tiers_gt.zip`).
-
 ---
 
 ## 2. Quy tắc hình học & Ranh giới đối tượng (Boundary Rules)
@@ -40,8 +38,8 @@
 
 ## 4. Checklist kiểm tra nhanh trước khi nộp bài
 
-1. [ ] **Đã bấm Save trên CVAT:** Trước khi bấm Export, đã bấm nút Save (Ctrl + S) chưa?
-2. [ ] **Đúng định dạng Export:** Semantic dùng `Segmentation mask 1.1`; Instance & Panoptic dùng `COCO 1.0`.
-3. [ ] **Tên file ZIP:** Đúng 9 file trong thư mục `submissions/`, không chứa khoảng trắng thừa ở đuôi tên.
-4. [ ] **Kiểm tra rỗng:** File `cp5_occlusion.zip` có chứa annotation chưa (tránh file rỗng ~700 bytes).
-5. [ ] **Hoàn thiện [REPORT.md](file:///c:/Users/trang/Downloads/LAB%20AI/Day5/Day5-Segmentation-Lab-Student-main/Day5-Segmentation-Lab-Student-main/REPORT.md):** Đã điền đủ 4 mục và không để sót dấu `…`.
+1. [X] **Đã bấm Save trên CVAT:** Trước khi bấm Export, đã bấm nút Save (Ctrl + S) chưa?
+2. [X] **Đúng định dạng Export:** Semantic dùng `Segmentation mask 1.1`; Instance & Panoptic dùng `COCO 1.0`.
+3. [X] **Tên file ZIP:** Đúng 9 file trong thư mục `submissions/`, không chứa khoảng trắng thừa ở đuôi tên.
+4. [X] **Kiểm tra rỗng:** File `cp5_occlusion.zip` có chứa annotation chưa (tránh file rỗng ~700 bytes).
+5. [X] **Hoàn thiện [REPORT.md](file:///c:/Users/trang/Downloads/LAB%20AI/Day5/Day5-Segmentation-Lab-Student-main/Day5-Segmentation-Lab-Student-main/REPORT.md):** Đã điền đủ 4 mục và không để sót dấu `…`.

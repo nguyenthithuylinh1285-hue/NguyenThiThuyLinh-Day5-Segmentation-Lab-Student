@@ -4,9 +4,7 @@
 
 - Mã học viên theo lớp: 2A202602234
 - Ngày / CVAT local: 17/09/2026 / CVAT Web
-- Công cụ đã dùng: Polygon, Brush, Rectangle, AI Tools (Intelligent Scissors/SAM nếu có)
-
-Mã học viên là mã lớp cấp; không cần ghi họ tên trong report nếu kênh VLearn đã nhận diện bạn. Chỉ ghi công cụ thật sự đã dùng; không có SAM vẫn làm bài bình thường.
+- Công cụ đã dùng: Polygon, Brush, Rectangle, AI Tools
 
 ## 1. Bài đã nộp
 
